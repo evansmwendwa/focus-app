@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Focus</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="wallpaper_dialog_desc">Wallpaper will change automatically every day. To Finish setup, tap Set wallpaper on the next screen.</string>
+    <string name="disable_wallpaper_dialog_desc">Deactivate the daily wallpaper? You will no longer receive the automatic daily wallpaper.</string>
+    <string name="daily_wallpaper">Daily wallpaper</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_cancel">Cancel</string>
+    <string name="action_deactivate">Deactivate</string>
 </resources>
