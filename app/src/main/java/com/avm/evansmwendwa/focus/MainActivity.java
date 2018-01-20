@@ -56,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         backgroundActive = true;
         switchButton.setChecked(true);
         wallpaperText.setTextColor(getResources().getColor(R.color.colorWhite));
+        wallpaperText.setText("Turn off daily wallpaper");
     }
 
     public void deactivateWallpaperWidget() {
@@ -63,5 +64,6 @@ public class MainActivity extends AppCompatActivity {
         backgroundActive = false;
         switchButton.setChecked(false);
         wallpaperText.setTextColor(getResources().getColor(R.color.inactiveText));
+        wallpaperText.setText("Turn on daily wallpaper");
     }
 }
